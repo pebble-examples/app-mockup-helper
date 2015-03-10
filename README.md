@@ -1,4 +1,4 @@
-# app_mockup_helper
+# app-mockup-helper
 
 ![screenshot](app_mockup_helper_screenshot.png)
 
