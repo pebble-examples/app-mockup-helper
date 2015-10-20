@@ -15,7 +15,11 @@ static void main_window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(s_main_window);
   GRect bounds = layer_get_frame(window_layer);
 
+#ifdef PBL_ROUND
+  s_mockup_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_MOCKUP_CHALK);
+#else
   s_mockup_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_MOCKUP);
+#endif
 
   s_mockup_layer = bitmap_layer_create(bounds);
   bitmap_layer_set_bitmap(s_mockup_layer, s_mockup_bitmap);
