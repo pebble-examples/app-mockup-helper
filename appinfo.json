@@ -15,11 +15,6 @@
         "type": "png",
         "name": "IMAGE_MOCKUP",
         "file": "images/mockup.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MOCKUP_CHALK",
-        "file": "images/mockupChalk.png"
       }
     ]
   },
